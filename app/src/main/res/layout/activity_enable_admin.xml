@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnableAdminActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvAdminTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Device Admin"
+        android:textSize="22sp"
+        android:textColor="@color/flatui_wet_asphalt"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="150dp" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/tvAdminDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This permission is required to allow the app to lock your device when necessary. Please click the button below to enable it."
+        android:textSize="16sp"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tvAdminTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Enable Device Admin Button -->
+    <Button
+        android:id="@+id/btnEnableAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Device Admin"
+        android:backgroundTint="@color/gray"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/tvAdminDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Enable Accessibility Button -->
+    <Button
+        android:id="@+id/btnEnableAccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Usage Access"
+        android:backgroundTint="@color/gray"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/btnEnableAdmin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnEnableUsageAccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Accessibility"
+        android:backgroundTint="@color/gray"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/btnEnableAccess"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

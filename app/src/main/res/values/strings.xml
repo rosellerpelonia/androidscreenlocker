@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android Screen Locker</string>
+    <string name="about_message">Android Screen Locker is a free and open-source Android parental control app that helps parents manage and monitor their childrens activities on mobile devices. Android Screen Locker was developed as a capstone project by the members specified below.</string>
+    <string name="developers">Developers</string>
+    <string name="mahmoud_mansour">Jericho Alabado</string>
+    <string name="khalid_samir">Leny Magbanua</string>
+    <string name="christelline">Chritelline Lamina</string>
+    <string name="supervisor">Adviser</string>
+    <string name="d_marwa_abbas">Rix Silud</string>
+    <string name="many_thanks_goes_to_freepik_and_smashiocns_for_the_graphics">Many thanks goes to freepik.com and flaticon.com for the graphics</string>
+    <string name="accessibility_service_description">Accessibility service description</string>
+
+</resources>
